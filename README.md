@@ -17,21 +17,21 @@ Limpia limpia es un script desarrollado en Python que nos ayuda a limpiar archiv
 ## Instalación
 1. Clona el repositorio o descarga el script:
    ```sh
-   git clone https://github.com/tuusuario/windows-cleaner.git
+   git clone https://github.com/fonroot01/Limpia-limpia.git
    ```
 2. Accede a la carpeta del script:
    ```sh
-   cd windows-cleaner
+   cd limpia-limpia
    ```
 
 ## Uso
 Ejecuta el script con permisos de administrador:
 ```sh
-windows-cleaner.bat
+limpia-limpia.bat
 ```
 O en PowerShell:
 ```sh
-powershell -ExecutionPolicy Bypass -File windows-cleaner.ps1
+powershell -ExecutionPolicy Bypass -File limpia-limpia.ps1
 ```
 
 ## Contribuciones
