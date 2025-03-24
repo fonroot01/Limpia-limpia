@@ -38,9 +38,9 @@ def eliminar_archivos_temporales(log_text):
                         shutil.rmtree(archivo_path, ignore_errors=True)
                         log_text.insert(tk.END, f"Carpeta eliminada: {archivo_path}\n")
                 except PermissionError:
-                    log_text.insert(tk.END, f"❌ Archivo en uso: {archivo_path}\n")
+                    log_text.insert(tk.END, f"Archivo en uso: {archivo_path}\n")
                 except Exception as e:
-                    log_text.insert(tk.END, f"⚠️ Error en {archivo_path}: {e}\n")
+                    log_text.insert(tk.END, f"Error en {archivo_path}: {e}\n")
 
 def eliminar_historial_navegador(log_text):
     cerrar_procesos()  # Asegura que los navegadores estén cerrados
@@ -56,16 +56,16 @@ def eliminar_historial_navegador(log_text):
                 os.remove(ruta)
                 log_text.insert(tk.END, f"✔ Historial eliminado: {ruta}\n")
             except PermissionError:
-                log_text.insert(tk.END, f"❌ No se pudo eliminar {ruta}, intenta nuevamente.\n")
+                log_text.insert(tk.END, f"No se pudo eliminar {ruta}, intenta nuevamente.\n")
             except Exception as e:
-                log_text.insert(tk.END, f"⚠️ Error eliminando historial en {ruta}: {e}\n")
+                log_text.insert(tk.END, f"Error eliminando historial en {ruta}: {e}\n")
 
 def vaciar_papelera(log_text):
     try:
         os.system("powershell.exe -Command Clear-RecycleBin -Confirm:$false")
         log_text.insert(tk.END, "✔ Papelera vaciada.\n")
     except Exception as e:
-        log_text.insert(tk.END, f"⚠️ Error al vaciar la papelera: {e}\n")
+        log_text.insert(tk.END, f"Error al vaciar la papelera: {e}\n")
 
 def main():
     root = tk.Tk()
