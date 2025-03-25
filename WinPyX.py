@@ -69,9 +69,9 @@ def vaciar_papelera(log_text):
 
 def main():
     root = tk.Tk()
-    root.title("Limpia limpia")
+    root.title("WinPyX")
     root.geometry("600x400")
-    root.iconbitmap(r"C:\Users\Alfonso\OneDrive\Escritorio\Auditorias\1 SCRIPTS PYTHON ORIENTADO A LA C-SEGURIDAD\Limpia limpia\Limpia_limpiaicono.ico")
+    root.iconbitmap(r"C:\Users\Alfonso\OneDrive\Escritorio\Auditorias\1 SCRIPTS PYTHON ORIENTADO A LA C-SEGURIDAD\WinPyX\WinPyX.ico")
 
     log_text = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=70, height=15)
     log_text.pack(pady=10)
