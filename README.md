@@ -1,7 +1,7 @@
-# Software Limpia Limpia
+# WinPyX
 
 ## Descripción
-Limpia limpia es un script desarrollado en Python que nos ayuda a limpiar archivos temporales, eliminar el historial de navegadores y vaciar la papelera de reciclaje en Windows. Con este script vamos a poder mejorar el rendimiento del sistema al liberar espacio en disco y eliminar datos innecesarios.
+WinPyX es un script desarrollado en Python que nos ayuda a limpiar archivos temporales, eliminar el historial de navegadores y vaciar la papelera de reciclaje en Windows. Con este script vamos a poder mejorar el rendimiento del sistema al liberar espacio en disco y eliminar datos innecesarios.
 
 ## Características
 - Elimina archivos temporales del sistema.
@@ -15,23 +15,23 @@ Limpia limpia es un script desarrollado en Python que nos ayuda a limpiar archiv
 - PowerShell o CMD.
 
 ## Instalación
-1. Clona el repositorio o descarga el script:
-   ```sh
-   git clone https://github.com/fonroot01/Limpia-limpia.git
-   ```
-2. Accede a la carpeta del script:
-   ```sh
-   cd limpia-limpia
-   ```
+Clona el repositorio o descarga el script:
+```bash
+git clone https://github.com/fonroot01/WinPyX.git
+```
+Accede a la carpeta del script:
+```bash
+cd WinPyX
+```
 
 ## Uso
 Ejecuta el script con permisos de administrador:
-```sh
-limpia-limpia.bat
+```bash
+WinPyX.bat
 ```
 O en PowerShell:
-```sh
-powershell -ExecutionPolicy Bypass -File limpia-limpia.ps1
+```powershell
+powershell -ExecutionPolicy Bypass -File WinPyX.ps1
 ```
 
 ## Contribuciones
