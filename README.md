@@ -34,6 +34,11 @@ O en PowerShell:
 powershell -ExecutionPolicy Bypass -File WinPyX.ps1
 ```
 
+## Interfaz
+
+![Interfaz](https://github.com/user-attachments/assets/2c94244c-e0db-4838-9247-0100cb5ad190)
+
+
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes mejoras o sugerencias no dudes en notificarme, correo: alfomosque22@gmail.com.
 
